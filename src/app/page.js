@@ -1,5 +1,6 @@
 import Hero from "@/Components/Hero";
 import SideBar from "@/Components/SideBar";
+import "./globals.css";
 
 const Home = () => {
   return (

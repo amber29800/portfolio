@@ -10,6 +10,7 @@ const Card = ({ source, srcLink }) => {
           src={"/" + source}
           width={200}
           height={120}
+          alt="card-image"
         />
       </Link>
     </div>

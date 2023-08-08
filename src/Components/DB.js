@@ -11,7 +11,7 @@ const DB = () => {
       </div>
       <div className="flex flex-wrap gap-10">
         <div className="flex flex-col gap-3">
-          <Card source="mysql.jpg" srcLink="" />
+          <Card source="mysql.jpg" srcLink="https://dev.mysql.com/doc/" />
           <div className="flex flex-col">
             <div className="text-white font-bold">MySQL</div>
           </div>

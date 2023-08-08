@@ -9,7 +9,7 @@ const Backend = () => {
       </div>
       <div className="flex flex-wrap gap-10">
         <div className="flex flex-col gap-3">
-          <Card source="node.webp" srcLink="https://nodejs.org/en/docs" />
+          <Card source="njs.webp" srcLink="https://nodejs.org/en/docs" />
           <div className="flex flex-col">
             <div className="text-white font-bold">Node.js</div>
           </div>

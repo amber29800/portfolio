@@ -8,37 +8,37 @@ const Frontend = () => {
       </div>
       <div className="flex flex-wrap gap-10">
         <div className="flex flex-col gap-3">
-          <Card source="html5.png" />
+          <Card source="html5.png" srcLink="https://www.w3schools.com/html/" />
           <div className="flex flex-col">
             <div className="text-white font-bold">HTML5</div>
           </div>
         </div>
         <div className="flex flex-col gap-3">
-          <Card source="css3.JPG" />
+          <Card source="css3.JPG" srcLink="https://developer.mozilla.org/en-US/docs/Web/CSS" />
           <div className="flex flex-col">
             <div className="text-white font-bold">CSS3</div>
           </div>
         </div>
         <div className="flex flex-col gap-3">
-          <Card source="tailwind.jfif" />
+          <Card source="tailwind.jfif" srcLink="https://tailwindcss.com/docs/installation" />
           <div className="flex flex-col">
             <div className="text-white font-bold">Tailwind CSS</div>
           </div>
         </div>
         <div className="flex flex-col gap-3">
-          <Card source="reactjs.png" />
+          <Card source="reactjs.png" srcLink="https://react.dev/learn"/>
           <div className="flex flex-col">
             <div className="text-white font-bold">React.js</div>
           </div>
         </div>
         <div className="flex flex-col gap-3">
-          <Card source="reduxjs.png" />
+          <Card source="reduxjs.png" srcLink="https://redux.js.org/introduction/getting-started" />
           <div className="flex flex-col">
             <div className="text-white font-bold">Redux</div>
           </div>
         </div>
         <div className="flex flex-col gap-3">
-          <Card source="nextjs-logo.png" />
+          <Card source="nextjs-logo.png" srcLink="https://nextjs.org/docs" />
           <div className="flex flex-col">
             <div className="text-white font-bold">Next.js</div>
           </div>

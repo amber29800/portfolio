@@ -1,3 +1,4 @@
+import Intro from "./Intro";
 import NamePhoto from "./NamePhoto";
 import Navbar from "./Navbar";
 import Skills from "./Skills";

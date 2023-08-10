@@ -5,13 +5,15 @@ const Card = ({ source, srcLink }) => {
   return (
     <div className="shadow hover:shadow-slate-300 rounded-xl box-border">
       <Link href={`${srcLink}`} target="_blank">
+        <div className="relative aspect-video rounded-lg overflow-hidden">
         <Image
-          className="w-[200px] h-[120px] rounded-xl object-center"
+          className="w-full h-full object-cover"
           src={"/" + source}
           width={200}
           height={120}
           alt="card-image"
         />
+        </div>
       </Link>
     </div>
   );

@@ -2,11 +2,11 @@ import Card from "./Card";
 import { Monitor } from "lucide-react";
 const Frontend = () => {
   return (
-    <section className="grid gap-4">
-      <div className="flex gap-2 items-center text-xl font-bold text-highlight text-white">
+    <section className="">
+      <div className="flex gap-2 text-xl font-bold text-highlight text-white">
         <Monitor color="#8b8a91" /> Frontend
       </div>
-      <div className="flex flex-wrap gap-10">
+      <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-4 xl::grid-cols-5 gap-5">
         <div className="flex flex-col gap-3">
           <Card source="html5.png" srcLink="https://www.w3schools.com/html/" />
           <div className="flex flex-col">
